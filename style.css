@@ -1,0 +1,1264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Header Part Start */
+
+Header nav {
+    display: flex;
+    justify-content: space-around;
+     width: 100%;
+    height: 100px;
+    background-color: #0C0C0C; 
+} 
+.First_Part img{
+   width: 190px;
+   height: auto;
+   background-position: top 10px ;
+   padding-top: 25px;
+}
+.Second_Part ul{
+    display: flex;
+    list-style-type: none;
+    padding-top: 25px;
+}
+.Second_Part ul li{
+margin: 20px;
+font-size: 18px;
+}
+.Second_Part ul li a{
+    text-decoration: none; 
+    color: white;
+}
+.Second_Part ul li a:hover{
+    color: rgb(99, 231, 231);
+}
+.fa-solid{
+    color:  rgb(99, 231, 231) ;
+}
+.fa-solid:hover{
+    color: aliceblue;
+}
+
+/* Header Part End */
+
+/* Section class:creative start */
+
+.Creative{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 660px;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between 
+}
+
+.Part_one_cr{
+    padding-left: 70px;
+    padding-top: 70px;
+}
+.Part_one_cr h3{
+font-size: 18px;
+color: rgb(92, 210, 185);
+font-family: "Poppins", sans-serif;
+font-weight: 600;
+letter-spacing: 4px ;
+}
+
+.Part_two_cr img{
+    width: 500px;
+    height: 660px;
+    background-image: linear-gradient(270deg,#73e9cf 0%,#02010100 97%);
+    opacity:0.8 ;  
+}
+.P_one{
+    font-size: 75px;
+    margin-bottom: -40px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.P_one span{
+    color: aqua;
+}
+.Line{
+    font-size: 60px;
+    color: aqua;
+}
+.small{
+    font-size:18px ;
+    color: rgb(138, 137, 137);
+    font-family: sans-serif;
+
+}
+.Part_two_cr .fa-circle-play{
+    font-size: 70px;
+   color: aliceblue;
+}
+.P_two{
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 18px;
+    letter-spacing: 4px;
+}
+.Line_two{
+    color: dimgrey;
+}
+.P_three{
+    font-size: 16px;
+    font-family: sans-serif;
+    color:  #53dfb5;
+}
+.Small_Container{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.Part_three_crr{
+    margin-top: 20px;
+    margin-right: 60px;
+}
+
+/* Section class:creative End */
+
+
+/* Section class:SERVICES start */
+
+.SERVICES{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    width: 100%;
+    height: 700px;
+}
+.SERVICES_Part_one{
+    padding-left: 8%;
+    padding-top: 5%;
+    margin-top: 3%;
+}
+.SERVICES_Part_one h3{
+    color: rgb(92, 210, 185);
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.SERVICES_Part_one p{
+    color: rgb(249, 249, 249);
+    font-size: 55px;
+    font-weight: 700;
+    font-family: "Work Sans", sans-serif;
+    margin-bottom: -40px;
+    
+} 
+.SERVICES_Part_one p span{
+    color: aqua; 
+}
+.Pr_one{
+    font-size: 12px;
+}
+.SERVICES_Part_two{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-right:5%;
+}
+.box_one_one{
+    width: 300px;
+    height: 230px;
+    text-align: center;
+    background-color: rgba(70, 70, 70, 0.281);
+    color: aliceblue;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 10px 15px;
+    margin-top: 12%;
+    margin-left: 7%;
+    transition: all 0.8s ease;
+}
+.box_one_one:hover{
+    transform: translateY(20px);
+    background-image: linear-gradient(360deg,#73e9d0a8 0%,#02010100 85%);
+    color: #73e9d0a8;
+}
+.box_one_one img{
+    width: 80px;
+    height: 80px;
+}
+.small_part_two{
+    font-size:16px ;
+    color: rgb(138, 137, 137);
+    font-family: sans-serif;
+}
+
+.box_one_two{
+    width: 300px;
+    height: 230px;
+    text-align: center;
+    background-color: rgba(70, 70, 70, 0.281);
+    color: aliceblue;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 10px 15px;
+    margin-top: 5%;
+    margin-left: 2%;
+    transition: all 0.8s ease;
+}
+.box_one_two:hover{
+    transform: translateY(20px);
+    background-image: linear-gradient(360deg,#73e9d0a8 0%,#02010100 85%);
+    color: #73e9d0a8;
+}
+
+.box_one_two img{
+    width: 80px;
+    height: 80px;
+}
+
+.box_two_one{
+    width: 300px;
+    height: 230px;
+    text-align: center;
+    background-image: linear-gradient(360deg,#73e9d0a8 0%,#02010100 85%);
+    opacity:0.7 ; 
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 10px 15px;
+    margin-top: 20%;
+    transition: all 0.8s ease;
+}
+.box_two_one:hover{
+    transform: translateY(20px);
+    background-image: linear-gradient(360deg,#000000a8 0%,#02010100 85%);
+    color: #53dfb5;
+}
+
+.box_two_one img{
+    width: 80px;
+    height: 80px;
+    
+}
+.box_two_two{
+    width: 300px;
+    height: 230px;
+    text-align: center;
+    background-image: linear-gradient(360deg,#73e9d0a8 0%,#02010100 85%);
+    opacity:0.7 ; 
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 10px 15px;
+    margin-bottom: 40%;
+    margin-left: 8%;
+    transition: all 0.8s ease;
+}
+.box_two_two:hover{
+    transform: translateY(20px);
+       background-image: linear-gradient(360deg,#000000a8 0%,#02010100 85%);
+    color: #53dfb5;
+}
+
+.box_two_two img{
+    width: 80px;
+    height: 80px;
+}
+
+.small_b{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Roboto, sans-serif;
+    color: rgb(170, 170, 170);
+    
+}
+
+form button{
+    width: 130px;
+    height: 65px;
+    color: aliceblue;
+    background-color: rgb(92, 210, 185);
+    font-size: 18px;
+    font-family: sans-serif;
+    transition: all 0.4s ease;
+}
+form button:hover{
+    transform: translate(0px,10px);
+    background-color: #0C0C0C;
+    border: 1px #53dfb5;
+}
+
+/* Section class:SERVICES End */
+
+/* article class:About Us start */
+
+article{
+    display: flex;
+    justify-content: space-around;
+    background-color: #0C0C0C;
+    width: 100%;
+    height: 700px;
+    
+}
+.art_one img{
+    margin-left: 15%;
+    margin-top: 20%;
+    height: 605px;
+    width: 465px;
+    opacity: 0.75;
+}
+.art_two{
+    margin-left: 2%;
+    margin-top: 3%;
+}
+article h3{
+    color: rgb(92, 210, 185);
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10%;
+    
+}
+.art_two_one{
+    margin-left: 5%;
+}
+
+p.one{
+    color: rgb(249, 249, 249);
+    font-size: 55px;
+    font-weight: 700;
+    font-family: "Work Sans", sans-serif;
+    margin-bottom: -40px;
+    
+}
+p.one span{
+    color: aqua;
+}
+
+p.two{
+    font-size: 18px;
+    color: rgb(138, 137, 137);
+    font-family: sans-serif;
+}
+.Small_Container_Two{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    margin-left: -4%;
+}
+.Small_Container_Two h5{
+    color: rgb(249, 249, 249);   
+    font-family: "Work Sans", sans-serif;
+    font-size: 25px;
+}
+.sm_one{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 2%;
+}
+.sm_one img{
+    width: 70px;
+    height: 70px;
+    margin-top: -4%;
+    margin-left: -10%;
+}
+.sm_one_two{
+    display: flex;
+    justify-content: space-around;
+    margin-left: -10%;
+}
+.sm_one_two img{
+    width: 70px;
+    height: 70px;
+    margin-top: -4%;
+    margin-left: -10%;
+}
+
+/* article class:About Us End */
+
+/* Section class:NUMBERS start */
+
+section.Numbers{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    width: 100%;
+    height: 325px;
+}
+section.Numbers{
+    position: absolute;
+    background-color: #00000000;
+    background-image: linear-gradient(90deg, #5CD2B93D  0%, #151515 90%), url(https://kfkit.rometheme.pro/criativo/wp-content/uploads/sites/10/2021/08/1.jpg) ;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-x:50% ;
+    background-position-y:50% ;
+    opacity: 1; 
+    z-index: 1;
+}
+
+
+section.Numbers img{
+    width: 80px;
+    height: 80px;
+}
+.Nu{
+    margin-top: 6%;
+    padding:48% , 16px;
+    align-items: center;
+} 
+.Nu_one{
+    margin-top: 6%;
+    margin-right: 5%;
+}
+.Nu_one p{
+    font-size: 25px;
+    color: rgb(249, 249, 249);
+    font-family: "Font Awesome 5 Free";
+    font-weight: 300;
+    margin-bottom: 5%;
+    margin-right: -5%;
+    padding-left: -5%;
+}
+.Nu_one p span{
+    color: rgb(92, 210, 185);
+    font-size: 50px;
+    font-weight: 700;
+    font-family: "Helvetica Neue", sans-serif;
+}
+.Nu_one h5{
+    font-size: 18px;
+    color: rgb(249, 249, 249);
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    margin-left: -12%;
+}
+.Nu p{
+    font-size: 25px;
+    color: rgb(249, 249, 249);
+    font-family: "Font Awesome 5 Free";
+    font-weight: 300;
+    margin-bottom: 4%;
+    margin-right: -5%;
+  
+}
+.Nu p span{
+  color: rgb(92, 210, 185);
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "Helvetica Neue", sans-serif;
+  
+}
+.Nu h5{
+    font-size: 18px;
+    color: rgb(249, 249, 249);
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    margin-left: -14%;
+}
+
+/* Section class:NUMBERS End */
+
+/* article class:LATEST PROJECT start */
+
+article.Projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    height: 1300px;
+    background-color: #000000;
+    color:rgb(255, 255, 255) ;
+}
+.Project_part_one{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25% ;
+    padding-top: 8%;
+    
+} 
+.Project_part_one h2{
+    color: rgb(92, 210, 185);
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 4px ;
+}
+.Project_part_one_one{
+    margin-left: -2%;
+}
+p.two_two{
+    font-size: 16px ;
+    font-family:"Roboto", sans-serif ;
+    font-weight: 400;
+    color: rgb(170, 170, 170)  
+}
+.f_b{
+    display: flex;
+    
+}
+.p_two_two{
+    font-size: 16px ;
+    font-family:"Roboto", sans-serif ;
+    font-weight: 400;
+    margin-left: 2%;
+    color: rgb(249, 249, 249)
+}
+.Project_part_three img{
+    width:373px ;
+    height: 366px ;
+}
+
+.Project_part_four img{
+    width:373px ;
+    height: 366px ;
+}
+.Project_part_four{
+    margin-bottom: 8%;
+    margin-left: -1%;
+}
+
+/* article class:LATEST PROJECT End */
+
+/* Section class:Sponsers Start */
+
+section.Sponsers{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    width: 100% ;
+    height: 230px ;
+    z-index: 0
+}
+section.Sponsers{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    background-image:linear-gradient(270deg, #5CD2B93D  0%, #151515 95%) ,url("https://kfkit.rometheme.pro/criativo/wp-content/uploads/sites/10/2021/08/side-view-portrait-of-a-woman-with-make-up-CTUMAUJ.jpg") ;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-x:50% ;
+    background-position-y:50% ;
+    opacity: 1; 
+    z-index: 5;   
+}
+
+
+section.Sponsers img{
+    width:208px ;
+    height: 79px;
+    margin-top: 30%;
+}
+
+/* Section class:Sponsers End */
+
+/* article class:Experience start */
+
+article.Experience{
+    width: 100%;
+    height: 1350px;
+    background-color: #000000;
+    color: aliceblue;
+    
+}
+.Experience_part_one{
+    margin-top: 28%;  
+    margin-left: 6%;
+    display: flex;
+    justify-content: space-around;
+    margin-right:-78%;
+    
+}
+.Experience_part_one_one{
+    margin-left: -5%;
+}
+.Experience_part_one h2{
+    color: rgb(92, 210, 185);
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 4px ; 
+}
+.Experience_part_one p{
+color: rgb(249, 249, 249);
+font-family: "Work Sans", sans-serif;
+font-size: 55px;
+font-weight: 700;
+}
+.Experience_part_one p span{
+    color: rgb(92, 210, 185);
+    font-size:55px ;
+    font-family:"Work Sans", sans-serif ;
+    font-weight: 700;
+}
+.Experience_part_two{
+margin-right: -170%;
+margin-top: 18%;
+}
+
+.Experience_part_two p{
+    color: rgb(170, 170, 170);
+    font-size: 16px;
+    font-family:"Roboto", sans-serif ;
+    font-weight: 400;
+    line-height:28px ;
+    
+}
+.f_b p{
+    color: rgb(249, 249, 249);
+    font-size:18px ;
+    font-family:"Poppins", sans-serif;
+    font-weight: 500;
+    letter-spacing: normal;
+    
+}
+.fa-circle-check{
+    color: rgb(92, 210, 185);
+    font-size: 25px;
+    font-family: "Font Awesome 5 Free";
+    font-style: normal;
+    
+}
+.f_b p{
+    margin-left: 3%;
+}
+.video{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin-top: 60%;
+    margin-left: 50%;
+}
+.video_one{
+    margin-left:-6%;
+    margin-top: -10%;
+}
+.video_two{
+    margin-right: 3%;
+    margin-top: 2%;
+}
+
+/* article class:Sponsers End */
+
+/* section class:Team start */
+
+section.Team{
+    height: 1100px;
+    width: 100%;
+}
+section.Team{ 
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    background-image:linear-gradient(270deg, #16332d3d  0%, #151515 95%) ,url("https://kfkit.rometheme.pro/criativo/wp-content/uploads/sites/10/2021/08/Bg-1.jpg") ;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-x:50% ;
+    background-position-y:50% ;
+    opacity: 1; 
+    z-index: 5;
+}
+.Team_first_part h3{
+    color: rgb(92, 210, 185);
+    text-align: center;
+    font-size: 18px;
+    font-family: "oppins", sans-serif;
+    margin-top: 5%;
+    letter-spacing: 4px;
+    font-weight: 600
+    
+     
+}
+.Team_first_part p{
+    color: rgb(249, 249, 249);
+    text-align: center;
+    font-size:55px ;
+    font-family: "Work Sans", sans-serif;
+    letter-spacing: normal;
+    font-weight: 700;
+}
+.Team_first_part p span{
+    color: rgb(92, 210, 185);
+    text-align: center;
+    font-size:55px ;
+    font-family: "Work Sans", sans-serif;
+    letter-spacing: normal;
+    font-weight: 700;
+}
+.Line_Three{
+    text-align: center;
+    color: rgb(92, 210, 185);
+    font-size: 60px;
+    margin-top: -2%;
+}
+.Container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 12px;
+}
+.Part_One{
+display: flex;
+justify-content: space-around;
+margin: 40px;
+width:550px ;
+height: 277px;
+background-color:rgba(43, 42, 42, 0.37) ;
+}
+.Part_One img{
+width: 255px;
+height: 277px;
+margin-top: -4%;
+}
+.Part_One_One h2{
+color: rgb(249, 249, 249);
+font-size: 24px;
+font-family: "Poppins", sans-serif;
+font-weight: 600;
+margin-left: 1%;
+margin-top: 5%;
+}
+.Part_One_One h3{
+    margin-right: 55%;
+    margin-top: -5%;
+}
+p.two_two{
+    font-size: 16px ;
+    font-family:"Roboto", sans-serif ;
+    font-weight: 400;
+    color: rgb(170, 170, 170) 
+}
+.Part_One_Two{
+    display: flex;
+    justify-content: space-around;
+    width: 100px;
+    height: 30px;
+    margin-top: 30%;
+    margin-left: -5%;
+}
+.fa-brands{
+   color:  rgb(92, 210, 185);
+   font-size: 15px;
+}
+.fa-brands:hover{
+    transform:translateY(10px);
+    transition: all 0.7s ease;
+}
+.Part_One_One.two_two{
+    margin-right: 5%;
+    letter-spacing: 2px;
+}
+
+/* section class:Team end */
+
+/* section class:PORTFOLIO start */
+
+section.PORTFOLIO{
+    width: 100%;
+    height: 1700px;
+    background-color: #000000;
+    text-align: center;
+}
+
+.PORTFOLIO_Part_One h3{
+    padding-top: 10%;
+    color: rgb(92, 210, 185);
+    text-align: center;
+    font-size: 18px;
+    font-family: "oppins", sans-serif;
+    margin-top: 83%;
+    letter-spacing: 4px;
+    font-weight: 600
+    
+}
+.PORTFOLIO_Part_One p{
+    color: rgb(249, 249, 249);
+    text-align: center;
+    font-size:55px ;
+    font-family: "Work Sans", sans-serif;
+    letter-spacing: normal;
+    font-weight: 700;
+}
+.PORTFOLIO_Part_One p span{
+    color: rgb(92, 210, 185);
+    text-align: center;
+    font-size:55px ;
+    font-family: "Work Sans", sans-serif;
+    letter-spacing: normal;
+    font-weight: 700;  
+}
+.PORTFOLIO_Part_One p.two_two{
+    font-size: 16px ;
+    font-family:"Roboto", sans-serif ;
+    font-weight: 400;
+    color: rgb(170, 170, 170) 
+}
+.PORTFOLIO_Part_Two img{
+    width: 360px;
+    height: 360px;
+}
+.PORTFOLIO_Part_Two{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+/* section class:PORTFOLIO End */
+
+/* section class:TESTIMONIALS Start */
+
+section.TESTIMONIALS{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    width: 100%;
+    height: 550px;
+    
+}
+section.TESTIMONIALS{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    background-image:linear-gradient(270deg, #16332d3d  0%, #151515 95%) ,url("https://kfkit.rometheme.pro/criativo/wp-content/uploads/sites/10/2021/08/adadad.jpg") ;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-x:50% ;
+    background-position-y:50% ;
+    opacity: 1; 
+    z-index: 5;
+}
+.TESTIMONIALS_Part_One h3{
+    padding-top: 10%;
+    color: rgb(92, 210, 185);
+    text-align: center;
+    font-size: 18px;
+    font-family: "oppins", sans-serif;
+    margin-top: 4%;
+    margin-left: -65%;
+    letter-spacing: 4px;
+    font-weight: 600
+    
+}
+.TESTIMONIALS_Part_One p.SM{
+    color: rgb(249, 249, 249);
+    text-align: center;
+    font-size:55px ;
+    font-family: "Work Sans", sans-serif;
+    margin-left: -15%;
+    letter-spacing: normal;
+    font-weight: 700;
+}
+.TESTIMONIALS_Part_One p span{
+    color: rgb(92, 210, 185);
+    text-align: center;
+    font-size:55px ;
+    font-family: "Work Sans", sans-serif;
+    letter-spacing: normal;
+    font-weight: 700;  
+}
+.TESTIMONIALS_Part_One p.two_two{
+    font-size: 16px ;
+    font-family:"Roboto", sans-serif ;
+    font-weight: 400;
+    color: rgb(170, 170, 170) 
+}
+.TESTIMONIALS_Part_One .Line_Three{
+    margin-left:-77%;
+}
+.TESTIMONIALS_Part_Two{
+    width: 550px;
+    height: 255px;
+    background-color: #151515d8;
+    color: rgb(170, 170, 170);
+    font-family:"Roboto", sans-serif ;
+    margin-top: 8%;
+    margin-right: 3%;
+    font-size:16px ;
+    font-weight: 400;
+}
+.TESTIMONIALS_Part_Two p{
+    margin-top: 6%;
+    margin-left: 5%;
+}
+.Small_Part{
+    display: flex;
+justify-content: space-around;
+}
+.Small_Part img{
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    margin-left: 17%;
+    
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    position: static;
+    margin-top: 50px;
+}
+.Small_Part_two{
+  margin-right: 5%; 
+  margin-top: 7%;
+  width: 48px; 
+  height: 48px; 
+  font-size: 55px;
+  color: rgb(92, 210, 185);
+}
+.Small_Part h3{
+   color: rgb(249, 249, 249) ; 
+   font-family: "Poppins", sans-serif;
+   font-size: 18px;
+   font-weight: 500;
+   text-align: left;
+   margin-left: 10%;
+   margin-top: 12%;
+   letter-spacing: normal;
+   width:150px ;
+
+}
+.Small_Part p{
+    color: rgb(92, 210, 185);
+    font-size: 13px;
+    font-family:"Roboto", sans-serif ;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 10%;
+    margin-top: -5%;
+}
+.TESTIMONIALS_Part_One button{
+    width: 253px;
+    height: 57px;
+    background-color: rgb(92, 210, 185);
+    border-color: rgb(92, 210, 185);
+    border: 1px ,solid;
+    color: rgb(249, 249, 249);
+    font-size:18px ;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: normal;
+    font-weight: 500;
+    transition: all 0.4s ease;
+}
+.TESTIMONIALS_Part_One button:hover{
+    transform: translate(0px,10px); 
+}
+
+/* section class:TESTIMONIALS end */
+
+/* section class:OUR BLOG start */
+
+section.OUR_BLOG{
+    width: 100%;
+    height:1400px;
+    background-color: #000000;
+    padding-top: 50%;
+
+}
+.first_part{
+text-align: center;
+}
+.first_part h3{
+    color: rgb(92, 210, 185);
+    font-size: 18px;
+    font-family: "oppins", sans-serif;
+    letter-spacing: 4px;
+    font-weight: 600
+}
+.first_part p.SM{
+    color: rgb(249, 249, 249);
+    font-size:55px ;
+    font-family: "Work Sans", sans-serif;
+    letter-spacing: normal;
+    font-weight: 700; 
+}
+.first_part p span{
+    color: rgb(92, 210, 185);
+    font-size:55px ;
+    font-family: "Work Sans", sans-serif;
+    letter-spacing: normal;
+    font-weight: 700;  
+}
+.first_part p.two_two{
+    font-size: 16px ;
+    font-family:"Roboto", sans-serif ;
+    font-weight: 400;
+    color: rgb(170, 170, 170) 
+    
+}
+.second_part{
+display: flex;
+justify-content: space-around; 
+margin-top: 3%;
+}
+.second_part_one {
+    width:373px;
+    height: 350px;
+    background-color:rgb(0, 0, 0) ; ;
+    color:rgb(170, 170, 170) ;
+}
+.second_part_one img{
+    width: 333px;
+    height: 220px;
+}
+.second_part_one h3{
+    color: rgb(92, 210, 185);
+    font-size: 24px;
+    font-family:"Poppins", sans-serif ;
+    font-weight: 600;
+    margin-top: 2%;
+}
+.second_part_one p.two_two{
+    color: rgb(170, 170, 170);
+    font-size: 16px;
+    font-family:"Roboto", sans-serif ;
+    font-weight: 400;
+}
+.Small_Part_one{
+    display: flex;
+    justify-content: center;
+    margin-left: -15%;
+}
+.Small_Part_one p{
+    color: rgb(249, 249, 249);
+    font-size: 16px;
+    font-family:"Roboto", sans-serif ;
+    font-weight: 400;
+    width: 120px;
+    margin-top: 3%;
+    transition:  rgb(92, 210, 185);
+}
+.Small_Part_one p:hover{
+    transform: translate(0px,0px);
+    color:rgb(92, 210, 185);
+}
+.Small_Part_one i{
+    color: rgb(92, 210, 185);
+    font-size: 20px;
+    transition:  rgb(255, 255, 255);
+}
+.Small_Part_one i:hover{
+   transform: translate(0px,0px);
+   color: white;
+}
+
+/* section class:OUR BLOG end */
+
+/* section class:form_contact start */
+
+.form_contact{
+    width: 100%;
+    height: 700px;
+    position: relative;  
+    display: flex;
+    justify-content: space-around;
+}
+.form_contact{
+    position: absolute;
+    background-color:  #0C0C0C;
+    background-image:linear-gradient(270deg, #16332d3d  0%, #151515 95%) ,url("https://kfkit.rometheme.pro/criativo/wp-content/uploads/sites/10/2021/08/bg-2.png") ;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-x:50% ;
+    background-position-y:50% ;
+    opacity: 1; 
+    z-index: 5;
+}
+.Form{
+    width: 570px;
+    height: 520px;
+    margin-top: 7%;
+    margin-left: 7%;
+    color:rgb(92, 210, 185) ;
+    align-content: flex-start;
+    border-color: rgb(92, 210, 185);
+    border: 2px solid;
+    padding: 20px;
+    margin-left: 2%;
+
+}
+.Form input.text{
+    width: 530px;
+    height: 43px;
+    background-color: rgba(21, 21, 21, 0.81);
+    border-color: rgb(92, 210, 185);
+    border: 1px solid;
+}
+.Form input.email{
+    width: 530px;
+    height: 43px;
+    background-color: rgba(21, 21, 21, 0.81);
+    border-color: rgb(92, 210, 185);
+    border: 1px solid;
+}
+textarea.text_area{
+    background-color: rgba(21, 21, 21, 0.81);
+    border-color: rgb(92, 210, 185);
+    border:1px solid;
+}
+label{
+    color:rgb(92, 210, 185);
+    font-size:16px ;
+    font-family:"Roboto", sans-serif ;
+    font-weight:400px ;
+    letter-spacing: normal;
+    margin-top: 4%;
+}
+.Form button{
+    width: 450px;
+    height: 57px;
+    background-color: rgb(92, 210, 185);
+    border-color: rgb(92, 210, 185);
+    border: 1px ,solid;
+    color: rgb(249, 249, 249);
+    font-size:18px ;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: normal;
+    font-weight: 500;
+    transition: all 0.4s ease;
+}
+.Form button:hover{
+    transform: translate(0px,1px);
+    background-color:#16332d3d ;    
+}
+.Data{
+    margin-top: 10%;
+}
+.Line_FIVE{
+    margin-top: -5%;
+   color:  rgb(92, 210, 185);
+   font-size: 50px;
+   margin-left: -10%;
+}
+.Data h3{
+    color: rgb(92, 210, 185);
+    font-size: 18px;
+    font-family: "oppins", sans-serif;
+    margin-left: -10%;
+    letter-spacing: 4px;
+    font-weight: 600
+    
+}
+.Data p.SM{
+    color: rgb(249, 249, 249);
+    font-size:55px ;
+    font-family: "Work Sans", sans-serif;
+    margin-left: -10%;
+    letter-spacing: normal;
+    font-weight: 700; 
+}
+.Data p.SM span{
+    color: rgb(92, 210, 185);
+    font-size:55px ;
+    font-family: "Work Sans", sans-serif;
+    letter-spacing: normal;
+    font-weight: 700; 
+}
+.Data p.two_two{
+    font-size: 16px ;
+    font-family:"Roboto", sans-serif ;
+    font-weight: 400;
+    margin-left: -10%;
+    color: rgb(170, 170, 170) 
+}
+.Data_One{
+    display: flex;
+    justify-content: center;
+    margin-left: -40%;
+}
+.Data_One h2{
+    color: rgb(249, 249, 249);
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600
+}
+.Data_One p{
+    color: rgb(92, 210, 185);
+    font-size: 16px;
+    font-family:"Roboto", sans-serif;
+    font-weight: 400
+}
+.Data_One i{
+    color:rgb(92, 210, 185);
+    font-size: 40px;
+    margin-left: -50%;
+}
+.Data_One i:hover{
+    transform: translate(0px,7px);
+}
+
+/* section class:form_contact end */
+
+
+
+/* footer class:form_contact strat */
+footer{
+    width: 100%;
+    height: 600px;
+    text-align: center;
+   
+}
+footer{
+    margin-top: 50%;
+    position: absolute;
+    background-color:  #0C0C0C;
+    background-image: radial-gradient(at center center, #5CD2B93D 0%,#02010100 80%);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-x:50% ;
+    background-position-y:50% ;
+    opacity: 0.9; 
+    z-index: 5;
+}
+.footer_one img{
+    width:225px ;
+    height:65px ;
+    margin-top: 11%;
+    margin-bottom:3%;
+
+}
+.List ul{
+    text-decoration: none;
+    display: flex;
+    justify-content: center; 
+}
+.List ul li{
+    color: rgb(92, 210, 185);
+    font-family: "Work Sans", sans-serif;
+    font-size:16px ;
+    font-weight: 600;
+    letter-spacing: normal;
+    transition:  rgb(255, 255, 255);
+    margin: 2%;
+}
+.List ul li:hover{
+    transform: translate(0px,0px);
+   color: white;
+}
+.footer_one p{
+    color: rgb(249, 249, 249);
+    font-family:"Roboto", sans-serif;
+    font-size:16px ;
+    font-weight: 400;
+
+}
+
+i.fa-brands{
+    margin-top: 9%;
+    color: rgb(92, 210, 185);
+    font-size:20px ;
+    transition:  rgb(255, 255, 255);
+}
+i.fa-brands:hover{
+    transform: translate(0px,7px);
+   color: white;
+}
+.Copy_right p{
+    color: rgb(170, 170, 170);
+    font-family:"Roboto", sans-serif;
+    font-size:16px ;
+    font-weight: 400;
+    margin-top: 6%;
+}
+/* footer class:form_contact end */
